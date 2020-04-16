@@ -28,7 +28,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p/><p/>
-        <h1>Monitor COVID-19 no Brasil</h1>
+        <h1>Monitor COVID-19 Brasil</h1>
         <p/>
         <div style={{display:"flex", justifyContent:"space-around", width: "100%", flexDirection:"row"}}>
         <MonitorItem label="Casos Totais" number={casos} />
