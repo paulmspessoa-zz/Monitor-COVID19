@@ -66,3 +66,29 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+
+
+**********************************************
+
+Abra o PowerSherll em modo administrador
+
+Execute dento da pasta onde será criado o projeto:
+npx create-react-app nomedoprojeto (aguarde enquanto é criado uma pasta com os arquivos base)
+
+Com o comando  code . o Visual Code será iniciado
+
+Iremos utilizar a API no link abaixo:
+https://coronavirus-19-api.herokuapp.com/countries/{countryName} 
+Disponivel no repositório:
+https://github.com/javieraviles/covidAPI
+
+Em seguida instalar AXIOS na pasta do projeto atraves do PowerShell
+npm install axios
+
+Link do Repositorio
+https://github.com/axios/axios
+
+
+
