@@ -52,9 +52,16 @@ function App() {
         number={curados} 
         increase={((curados / casos) * 100).toFixed(2)}/>
 
-        </div>
+       </div>
 
-        <div> Novo Conteudo</div>
+  <div style={{display:"flex", justifyContent:"space-around", width: "100%", flexDirection:"row"}}>
+          
+   <p>Desenvolvido por <b><a href="https://www.linkedin.com/in/paulmspessoa/" target="_blank">Paul Pessoa</a>
+</b></p>
+<p>O projeto foi construído durante uma live com Otacílio e Thiago Leads no Facebook Developers Circle Recife.</p>
+        
+        
+  </div>
       </header>
     </div>
   );
