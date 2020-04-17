@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/monitor-codiv19-brasil/static/css/main.4a5123f6.chunk.css",
+    "main.js": "/monitor-codiv19-brasil/static/js/main.d066344f.chunk.js",
+    "main.js.map": "/monitor-codiv19-brasil/static/js/main.d066344f.chunk.js.map",
+    "runtime-main.js": "/monitor-codiv19-brasil/static/js/runtime-main.6ab82852.js",
+    "runtime-main.js.map": "/monitor-codiv19-brasil/static/js/runtime-main.6ab82852.js.map",
+    "static/js/2.375b8cd5.chunk.js": "/monitor-codiv19-brasil/static/js/2.375b8cd5.chunk.js",
+    "static/js/2.375b8cd5.chunk.js.map": "/monitor-codiv19-brasil/static/js/2.375b8cd5.chunk.js.map",
+    "index.html": "/monitor-codiv19-brasil/index.html",
+    "precache-manifest.93a7352ed67654e90bb6fb28b227a8da.js": "/monitor-codiv19-brasil/precache-manifest.93a7352ed67654e90bb6fb28b227a8da.js",
+    "service-worker.js": "/monitor-codiv19-brasil/service-worker.js",
+    "static/css/main.4a5123f6.chunk.css.map": "/monitor-codiv19-brasil/static/css/main.4a5123f6.chunk.css.map",
+    "static/js/2.375b8cd5.chunk.js.LICENSE.txt": "/monitor-codiv19-brasil/static/js/2.375b8cd5.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/monitor-codiv19-brasil/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6ab82852.js",
+    "static/js/2.375b8cd5.chunk.js",
+    "static/css/main.4a5123f6.chunk.css",
+    "static/js/main.d066344f.chunk.js"
+  ]
+}
