@@ -5,6 +5,7 @@ const MonitorItem = props => {
     <div>
         <h3>{props.label}</h3>
         <h1>{props.number}</h1>
+        {props.increase && <h4>+ {props.increase} %</h4>}
     </div>
   )
 }

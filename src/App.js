@@ -28,14 +28,33 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p/><p/>
-        <h1>Monitor COVID-19 Brasil</h1>
+        <h1>Monitor COVID-19 no Brasil</h1>
         <p/>
         <div style={{display:"flex", justifyContent:"space-around", width: "100%", flexDirection:"row"}}>
-        <MonitorItem label="Casos Totais" number={casos} />
-        <MonitorItem label="Hoje" number={casosHoje} />
-        <MonitorItem label="Mortes" number={mortes} />
-        <MonitorItem label="Curados" number={curados} />
+
+        <MonitorItem
+        label="Casos Totais"
+        number={casos} 
+        />
+
+        <MonitorItem
+        label="Hoje"
+        number={casosHoje}
+        increase={((casosHoje / (casos - casosHoje)) * 100).toFixed(2)}/>
+
+        <MonitorItem
+        label="Mortes"
+        number={mortes} 
+        increase={((mortes / casos) * 100).toFixed(2)}/>
+        
+        <MonitorItem
+        label="Curados"
+        number={curados} 
+        increase={((curados / casos) * 100).toFixed(2)}/>
+
         </div>
+
+        <div> Novo Conteudo</div>
       </header>
     </div>
   );
