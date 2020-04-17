@@ -56,9 +56,12 @@ function App() {
 
   <div style={{display:"flex", justifyContent:"space-around", width: "100%", flexDirection:"row"}}>
           
-   <p>Desenvolvido por <b><a href="https://www.linkedin.com/in/paulmspessoa/" target="_blank">Paul Pessoa</a>
-</b></p>
-<p>O projeto foi construído durante uma live com Otacílio e Thiago Leads no Facebook Developers Circle Recife.</p>
+   <p>Desenvolvido por 
+   <a href="https://www.linkedin.com/in/paulmspessoa/"
+   target="_blank"> Paul Pessoa</a> </p>
+<p>Professores: <a href="https://github.com/ThiagoAugustoSM"
+   target="_blank"> Thiago Augusto </a> e <a href="https://github.com/OtacilioN"
+   target="_blank"> Otacilio Neto</a> Leads no Facebook Developers Circle Recife.</p>
         
         
   </div>
